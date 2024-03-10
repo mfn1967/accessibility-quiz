@@ -115,8 +115,32 @@ body {
     text-align: right;
   }
 
+  .question-block {
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 5px;
+  }
+
+  p {
+    margin-top: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+  }
+
   p::before {
     content: "Question #";
+  }
+
+  .question {
+    border: none;
+    padding-bottom: 0;
+  }
+
+  .answers-list {
+    list-style: none;
+    padding: 0;
   }
 
   .sr-only {
