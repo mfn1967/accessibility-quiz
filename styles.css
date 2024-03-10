@@ -91,6 +91,30 @@ body {
     padding-right: 0;
   }
 
+  .formrow {
+    margin: 1px 0 0 0;
+    padding: 0 1px;
+  }
+
+  input {
+    font-size: 18px;
+  }
+
+  .info > input, .info > label {
+    display: inline-block;
+  }
+
+  .info > input {
+    width: 50%;
+    text-align: left;
+  }
+
+  .info > label {
+    width: 10%;
+    min-width: 55px;
+    text-align: right;
+  }
+
   p::before {
     content: "Question #";
   }
